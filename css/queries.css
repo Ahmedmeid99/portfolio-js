@@ -1,0 +1,116 @@
+@media (min-width: 1000px) {
+  .projects {
+    grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
+  }
+  .container-info {
+    grid-template-columns: repeat(auto-fill, minmax(333px, 1fr));
+  }
+}
+@media (max-width: 1000px) {
+  .footer img {
+    height: 38rem;
+    margin: auto 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .container-about {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .container-about #reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-about #reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer {
+    justify-content: end;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 56.25%;
+  }
+  ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    right: -550px;
+  }
+  .close {
+    display: block;
+  }
+  .footer img {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer img {
+    margin: 0px;
+    height: 25rem;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+  .move {
+    bottom: -25px;
+    animation: up-down2 0.7s linear infinite alternate-reverse;
+  }
+  .projects {
+    width: 100%;
+  }
+  .close {
+    line-height: 38px;
+  }
+  .container-info {
+    width: 100%;
+  }
+  .container-about {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .container-info {
+    width: 100%;
+  }
+
+  .project {
+    width: 275px;
+  }
+  .row {
+    width: 275px;
+  }
+}
+
+/* 
+footer 
+flex-direction: column;
+j  :end
+img
+    height: 25rem;
+*/
